@@ -1,11 +1,11 @@
 
-export MAJOR_VERSION	?= 7
-export MINOR_VERSION	?= 9
+export MAJOR_VERSION	?= 8
+export MINOR_VERSION	?= 0
 export ARCH		        ?= amd64
 export VERSION			?= $(MAJOR_VERSION).$(MINOR_VERSION)
 export MIRROR			?= https://mirror.yandex.ru/openbsd
 export ISO_URL			?= $(MIRROR)/$(VERSION)/$(ARCH)/install$(MAJOR_VERSION)$(MINOR_VERSION).iso
-export ISO_CHECKSUM		?= sha256:7a4a92e953618035097c796a90b54424a0f3ae775552e1e7d102cf8a5130449f
+export ISO_CHECKSUM		?= sha256:bc85d747c6ee4354d14fbfeee38087500386a2e9d86fa7b5ab13d840d902aa33
 export OUTPUT_DIR		?= artifacts
 export VM_NAME			?= openbsd-$(VERSION)-$(ARCH).qcow2
 
